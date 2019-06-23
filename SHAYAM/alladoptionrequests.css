@@ -1,0 +1,19 @@
+#t01
+{
+    border: 1px solid black;
+    width:300px;
+    margin: 10px;
+    overflow: auto;     
+
+}
+#t01 tr td
+{   font-size: 1.2em;
+    line-height: 1.3em;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.result-container
+{
+    background: rgb(250, 250, 250);
+    height: 1200px;
+}

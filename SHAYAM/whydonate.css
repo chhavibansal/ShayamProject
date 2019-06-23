@@ -1,0 +1,181 @@
+.why
+{
+    width: 1280px;
+    background: white;
+    padding-top: 10px;
+    
+}
+.whydonate
+{
+    display: block;
+    background: rgb(255, 255, 255);
+    width: 1240px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 230px;
+}
+.whydonate h1{
+    font-weight: 400;
+    font-size: 2em;
+    border: none;
+    border-bottom: 1.5px solid black;
+    line-height: 2em;
+    /* margin-top: 2em; */
+    font-family: Cardo, Georgia, Times, serif;
+    color: rgb(66, 63, 63);
+  
+ 
+}
+#support
+{
+
+    padding-left: 350px;
+    /* margin: 0 auto; */
+}
+.whydonate p{
+    line-height: 1.2em;
+    font-size: 1.1em;
+    text-align: justify;    
+    color: rgb(94, 89, 89);
+    /* letter-spacing: 0.1em; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.whydonate h2{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6em;
+    border: none;
+    border-top: 2px solid black;
+}
+.banner
+{
+    background: url(http://localhost/imagex/puppies.jpg);
+    height: 300px;
+    overflow: hidden;
+}
+.banner p
+{
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 60px;
+    font-size: 2.3em;
+}
+.bottom
+{
+/* padding: 25px; */
+width: 1280px;
+height: 600px;
+background: rgb(240, 237, 237);
+}
+.wheredoweuseyourfunds
+{
+    width: 949px;
+    padding: 20px;
+    border-right: 1px solid black;
+}
+.wheredoweuseyourfunds h1
+{  
+     /* padding-left: 40px; */
+    font-size: 1.7em;
+    font-weight: bold;
+}
+.wheredoweuseyourfunds p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    line-height: 1.4em;
+    text-align: justify;
+}
+strong{
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-left: 50px;
+}
+.dogdisease ul li{
+    font-size: 1.0em;
+    padding: 4px;
+    line-height: 1.3em;
+}
+#hindi
+{
+    font-weight: bold;
+    width: 800px;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+.left
+{
+   
+    float: left;
+}
+.boxone
+{
+    margin: 0 auto;
+    width: 900px;
+    margin-top: 20px;
+    background: white;
+    box-shadow: 10px 10px gray;
+    padding: 20px;
+
+}
+.right
+{
+    float: right;
+}
+.dogdisease
+{
+    width: 230px;
+    padding: 20px;
+}
+.parent
+{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.image1{
+    position: relative;
+}
+.image2
+{
+    position: absolute;
+    top: 280px;
+    left: 10px;
+}
+.image3
+{
+    position: absolute;
+    top: 280px;
+    left: 660px;
+}
+.image4
+{
+    position: absolute;
+    top: 280px;
+    left: 1190px;
+}
+.image5
+{
+    position: absolute;
+    top: 280px;
+    left: 1715px;
+}
+.image6
+{
+    position: absolute;
+    top: 280px;
+    left: 2210px;
+}
+.image7
+{
+    position: absolute;
+    top: 280px;
+    left: 2832px;
+}
+.image8
+{
+    position: absolute;
+    top: 280px;
+    left: 3317px;
+}

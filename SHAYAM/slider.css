@@ -1,0 +1,69 @@
+#outerbox
+{
+    width: 1280px;
+    overflow: hidden;
+    
+    background: url(http://localhost/imagex/medicalillness/bgrd2.jpg) no-repeat;
+    height:350px;
+}
+#sliderbox
+{ cursor: pointer;
+    height: 350px;
+    position: relative;
+    width: 4000px;   
+    animation-name: chhavi;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+#sliderbox img{
+    float: left;
+}
+@keyframes chhavi
+{
+    0%
+    {
+        left: 0px;
+    }
+    23%
+    {
+        left: 0px;
+    }
+    33%
+    {
+        left: -1280px;
+    }
+    46%
+    {
+        left: -1280px;
+    }
+    50%
+    {
+        left: -1747px;
+    }
+    63%
+    {
+        left: -1747px;
+    }
+    66%
+    {
+        left: -2409px;
+    }
+    80%
+    {
+left: -2409px;
+    }
+    83%
+    {
+        left: -3020px;
+    }
+    97%
+    
+    {
+        left: -3020px;
+    }
+    100%
+    {
+        left:  -3630px;
+    }
+  
+}

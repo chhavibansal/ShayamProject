@@ -1,0 +1,66 @@
+.form-class
+{
+   /* margin-top: 20px; */
+    height: 450px;
+    background: rgb(214, 210, 210);
+    width: 600px;
+    align-content: center;
+    margin: 0 auto;
+  
+    /* font-family: cursive; */
+}
+#formid
+{
+    padding: 10px;
+    align-content: center;
+    float: left;
+    padding-left: 80px;
+}
+#formid tr td:first-child{
+    font-size: 1.2em;
+    color: blue;
+    font-weight: 100;
+    line-height: 1em;
+    /* padding-right: 1em; */
+}
+
+.container
+{
+    height: 500px;
+    background: url(http://localhost/imagex/rehomemypet.jpeg) no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#formid input[type="submit"]
+{
+    padding: 10px;
+    width: 60%;
+}
+#formid select{
+    padding: 5px;
+    border: none;
+}
+#formid input[type="text"]
+{
+    border: none;
+    border-radius: 10px;
+    padding: 9px;
+    width: 100%;
+}
+#formid input[type="file"]
+{
+    border: none;
+    /* width: 100%; */
+    border-radius: 10px;
+    padding: 5px;
+}
+#formid textarea
+{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+#form-table
+{
+    line-height: 2.7em;
+    float: left;
+}

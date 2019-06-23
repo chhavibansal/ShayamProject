@@ -1,0 +1,84 @@
+
+.content{
+    background: rgb(95, 95, 21);
+}
+.information
+{
+    width: 900px;
+    /* background:url(http://localhost/imagex/aboutus.jpg); */
+    overflow: hidden;
+    height: 600px;
+    padding: 20px;
+    float: left;
+    
+    background: rgb(199, 196, 196);
+}
+.abt
+{
+    width: 700px;
+    height:500px;
+    box-shadow:20px 10px rgb(97, 97, 97);
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+}
+.information h1{
+    border: 0px;
+    border-bottom: 1.5px solid black;
+    line-height: 1.5em;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.information h2{
+    line-height: 1.5em;
+    font-size: 2.5em;
+    font-weight: 500;
+    border-bottom: 1.5px solid black;
+}
+.information p:first-of-type::first-letter{
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-size: 4em;
+    line-height: .7em;
+}
+.information p
+{
+    line-height: 1.1em;
+    letter-spacing: .05em;
+    text-align: justify;    
+    /* padding-left: 30px; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ 
+.side{
+  width: 300px;
+  padding: 20px;
+  background:  rgb(236, 230, 230);
+  /* url(http://localhost/imagex/1.jpg); */
+  overflow: hidden;
+  float: right;
+  height: 600px;
+  font-family:'Times New Roman', Times, serif;
+}
+.side h1{
+    padding-top: 10px;
+    line-height: 1.1px;
+    font-size: 2em;
+    padding-left: 60px;
+    margin-bottom: 1em;
+    color: rgb(236, 70, 228);
+    /* position: relative; */
+}
+.side h2{
+    padding-left: 60px;
+    /* padding-top: 10px; */
+    font-size: 1.5em;
+    font-weight:700;
+    font-family: cursive;
+}
+.side img{
+    
+  
+    padding-left: 40px;
+}

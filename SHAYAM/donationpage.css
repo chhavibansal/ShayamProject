@@ -1,0 +1,29 @@
+.container
+{
+ height:700px;
+ background: white;
+}
+#paytm
+{
+    margin-top: 10px;
+    float: left;
+}
+#paytm:hover{
+    height: 150px;
+    width: 260px;
+}
+#paypal
+{margin-top: 10px;
+    float: right;
+}
+#paypal:hover{
+    height: 150px;
+    width: 260px;
+}
+.payment-option
+{
+    width: 1000px;
+    margin: 0 auto;
+    /* background: black; */
+    height: 250px;
+}

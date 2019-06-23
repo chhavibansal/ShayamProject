@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset =UTF-8>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="directory.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="common.css" />
+
+<title>Directory Search</title>
+    <script>
+         console.log( $("#idForm").serialize());
+        var url = "directoryifelse.php"; // the script where you handle the form input.
+        $(document).ready(function () {
+            $('#idform').submit(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: $("#idform").serialize(), // serializes the form's elements.
+                    success: function(data)
+                    {
+                    // alert(data); // show response from the php script.
+                    document.getElementById("show").innerHTML=(data);
+                    // console.log("HI");
+                    }
+                });
+            });
+        });
+
+            </script>
+</head>
+<body>
+        <div class="login">
+
+                <div >
+                    <!-- Trigger/Open The Modal -->
+                    <button id="myBtn" style="float: right; margin-right: 30px" >LOGIN </button>
+                    <div id="myModal" class="modal">
+                     <div class="modal-content">
+                        <div class="modal-header">
+                          <span class="close">&times;</span>
+                     <center>    <h2 style="color: black; ">LOGIN</h2></center> 
+                        </div>
+                        <div class="modal-body">
+                            <form action="http://localhost/cris/loginform.php" method="POST">
+                                <table id="modal-table">
+                                    <tr><td>USERNAME:</td> <td> <input type="text" name="username" placeholder="Enter Mobile Number" autofocus pattern="^[6-9]\d{9}$"></td> <br></tr> 
+                                    <tr><td>PASSWORD:</td><td> <input type="password" name="password" placeholder="Enter password" autofocus></td></tr> 
+                                    <tr><td></td> <td><input type="submit" name="submit" value="LOGIN IN"></td></tr> 
+                                    <tr> <td></td> <td>  </td> </tr>
+                            
+                                 </table>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                                <a href="http://localhost/cris/signupform.html">Do not have a account? SignUp</a><br><br>
+                            <a href="http://localhost/cris/dash.php">Look up my profile..</a>
+                            <br><br>
+                             <a href="http://localhost/cris/logout.php" >LogOut</a>
+                          </div>
+                      </div>
+                    
+                    </div>
+                    </div>
+                    </div> 
+                    <header> 
+<hgroup>
+        <h1> <a href="http://localhost/cris/frontpage.html">सहाय्यम्</a></h1>
+    
+    <h2>For handling incidents</h2>
+    </hgroup>
+</header>
+<div class="navbar">
+        <a href="http://localhost/cris/aboutus.html">
+                <i class="fa fa-info" style="font-size: 1.2em"></i>  About Us</a>
+        <a href="http://localhost/cris/directory.html">
+                <i class="fa fa-search" style="font-size: 1.2em"></i>  Directory</a>
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fa fa-group" style="font-size: 1.2em"></i>Appeal 
+            </button>
+            <div class="dropdown-content"> 
+            <a href="http://localhost/cris/whyadopt.html"><i class="fa fa-handshake-o" style="font-size: 1.2em;padding-right:5px"></i>Why Adopt?</a>
+            <a href="http://localhost/cris/adoptionform.html"><i class="fa fa-user-plus " style="font-size: 1.2em;padding-right:5px"></i>Adoption</a>
+            <a href="http://localhost/cris/alladoptionrequests.php"><i class="fa fa-list" style="font-size: 1.2em;padding-right:5px"></i>Adoption Requests</a>
+            <a href="http://localhost/cris/whydonate.html"><i class="fa fa-question-circle" style="font-size: 1.2em;padding-right:5px"></i>Why Donate</a>
+            <a href="http://localhost/cris/donationform.html"><i class="fa fa-inr" style="font-size: 1.2em;padding-right:5px"></i>Ask for donation</a>
+            </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fa fa-volume-control-phone" style="font-size: 1.2em"></i>  Emergency</button>
+            <div class="dropdown-content">
+                <a href="http://localhost/cris/donationpage.html"><i class="fa fa-credit-card" style="font-size: 1.2em;padding-right:5px"></i>Donate</a>
+            </div>
+        </div>
+                              </div>
+                        
+    <div class="global">
+            <fieldset>
+                <form id="idform"  method="POST" >
+                        <div class="form-group icon">
+                            <i class="fa fa-map-pin" style="font-size: 40px; float: left; padding-right: 10px"></i>
+                            <input type="text" name="pincode" placeholder="Enter desired pincode"  min="100000" max="999999" autofocus class="form-control">
+                        </div>
+                        <div class="form-group icon">
+                            <i class="fa fa-map-marker" style="font-size:40px; float: left; padding-right: 10px"></i>
+                            <input type="text" name="city" placeholder="Enter place" autofocus class="form-control">
+                        </div>
+                        <div class="form-group icon">
+                            <i class="fa fa-paw" style="font-size:40px; float: left; padding-right: 10px"></i>
+                            <!-- <input type="text" name="role" placeholder="Enter Role" autofocus class="form-control"> -->
+                            <select type="text" name="role" placeholder="Enter Role" autofocus class="form-control" style="width: 80%">
+                                <option value=""></option>
+                                <option value="NGO">NGO</option>
+                                <option value="Chemist">Chemist</option>
+                                <option value="Nurse">Nurse</option>
+                                <option value="Doctor">Doctor</option>
+                                <option value="Catering Inspector">Catering Inspector</option>
+                                <option value="Technician">Technician</option>
+                                <option value="Hospital">Hospital</option>
+                                <option value=" Mechanician"> Mechanician</option>
+                                <option value="Guard">Guard</option>
+                                <option value="Trackman">Trackman</option>
+                                <option value="Rescuer">Rescuer</option>
+                                <option value="Shelter">Shelter</option>
+                                <option value="Cable Jointer">Cable Jointer</option>
+                                <option value="Chief Engineer">Chief Engineer</option>
+                                <option value="Communications and Control Systems Engineer">Communications and Control Systems Engineer</option>  
+                                <option value="Duty Officer">Duty Officer</option>  
+                                <option value="Electrician">Electrician</option>  
+                                <option value="Environmentalist ">Environmentalist</option>  
+                                <option value="Investigations Officer">Investigations Officer</option>  
+                                <option value="Mechanic">Mechanic</option>  
+                                <option value="Shunter">Shunter</option>  
+                                <option value="Volunteer">Volunteer</option>  
+                        </select> 
+                        </div>
+                    
+                            <input type="submit">
+                        
+                    </form>
+            </fieldset>
+    
+<section id="show"></section>
+</div>
+<script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
+        
+</body>
+</html>

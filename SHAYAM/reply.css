@@ -1,0 +1,38 @@
+
+.form_ans
+{
+    width: 1000px;
+    padding: 20px;
+    margin: 0 auto;
+    background:url(imagex/aboutus.jpg);
+    overflow: hidden;
+    border: 1px solid black;
+    height: 200px;
+}
+.form_ans input[type="text"]
+{
+    font-size: 1.4em;
+    width: 70%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+
+}   
+.form_ans input[type="submit"]
+{
+    font-size: 1.4em;
+    width: 30%;
+    border: none;
+    padding: 10px;
+    
+}
+.container-form{
+    background: white;
+    width: 1280px;
+    height: 400px;
+}
+.view_ans{
+    float: right;
+    font-size: 1.4em;
+
+}

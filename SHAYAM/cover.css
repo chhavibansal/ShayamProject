@@ -1,0 +1,20 @@
+.section
+{
+    background: url(http://localhost/cris/imagex/IndianRailway.jpg);
+}
+.main
+{
+  
+    position: relative;
+}
+.rectangle
+{
+    position: absolute;
+    top: 500px;
+
+}
+.rectangletwo
+{
+    position: absolute;
+    top: 700px;
+}

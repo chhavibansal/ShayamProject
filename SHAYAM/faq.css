@@ -1,0 +1,33 @@
+.show
+{
+    background: url(imagex/faq.jpg);
+    height: 80%;
+    padding: 20px;
+    box-shadow: 10px 10px gray;
+    width: 1000px;
+    font-weight: bolder;
+    color: white;
+    margin: 0 auto;
+}
+.para
+{
+    font-size: 1.1em;
+    font-family: 'Times New Roman', Times, serif; 
+    border: none;
+    padding-bottom: 10px;
+    text-transform: capitalize ;
+    border-bottom: 1px solid black;
+}
+.result
+{
+    height: 500px;
+    widows: 1280px;
+    background: white;
+}
+strong{
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 500px;
+    padding-bottom: 10px;
+}

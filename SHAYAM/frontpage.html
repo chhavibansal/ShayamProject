@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset=UTF-8>
+    <!-- <script src="main.js"></script> -->
+    <link rel="stylesheet" type="text/css" media="screen" href="frontpage.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="/question.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="common.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+        integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>SAHAYAM </title>
+</head>
+
+<body>
+
+    <div class="login">
+
+        <div>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn" style="float: right; margin-right: 30px">LOGIN </button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span class="close">&times;</span>
+                        <center>
+                            <h2 style="color: black; ">LOGIN</h2>
+                        </center>
+                    </div>
+                    <div class="modal-body">
+                        <form action="http://localhost/cris/loginform.php" method="POST">
+                            <table id="modal-table">
+                                <tr>
+                                    <td>USERNAME:</td>
+                                    <td> <input type="text" name="username" placeholder="Enter Mobile Number" autofocus
+                                            pattern="^[6-9]\d{9}$"></td> <br>
+                                </tr>
+                                <tr>
+                                    <td>PASSWORD:</td>
+                                    <td> <input type="password" name="password" placeholder="Enter password" autofocus>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td><input type="submit" name="submit" value="LOGIN IN"></td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td> </td>
+                                </tr>
+
+                            </table>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="http://localhost/cris/signupform.html">Do not have a account? SignUp</a><br><br>
+                        <a href="http://localhost/cris/dash.php">Look up my profile..</a>
+                        <br><br>
+                        <a href="http://localhost/cris/logout.php">LogOut</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <header>
+        <hgroup>
+            <h1> <a href="http://localhost/cris/frontpage.html">सहाय्यम्</a></h1>
+
+            <h2>For handling incidents</h2>
+        </hgroup>
+    </header>
+    <div class="navbar">
+        <a href="http://localhost/cris/aboutus.html">
+            <i class="fa fa-info" style="font-size: 1.2em"></i> About Us</a>
+        <a href="http://localhost/cris/directory.html">
+            <i class="fa fa-search" style="font-size: 1.2em"></i> Directory</a>
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fa fa-group" style="font-size: 1.2em"></i>Appeal
+            </button>
+            <div class="dropdown-content">
+                <a href="http://localhost/cris/whyadopt.html"><i class="fa fa-handshake-o"
+                        style="font-size: 1.2em;padding-right:5px"></i>Why Adopt?</a>
+                <a href="http://localhost/cris/adoptionform.html"><i class="fa fa-user-plus "
+                        style="font-size: 1.2em;padding-right:5px"></i>Adoption</a>
+                <a href="http://localhost/cris/alladoptionrequests.php"><i class="fa fa-list"
+                        style="font-size: 1.2em;padding-right:5px"></i>Adoption Requests</a>
+                <a href="http://localhost/cris/whydonate.html"><i class="fa fa-question-circle"
+                        style="font-size: 1.2em;padding-right:5px"></i>Why Donate</a>
+                <a href="http://localhost/cris/donationform.html"><i class="fa fa-inr"
+                        style="font-size: 1.2em;padding-right:5px"></i>Ask for donation</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fa fa-volume-control-phone" style="font-size: 1.2em"></i>
+                Emergency</button>
+            <div class="dropdown-content">
+                <a href="http://localhost/cris/donationpage.html"><i class="fas fa-hand-holding-heart"
+                        style="font-size: 1.2em;padding-right:5px"></i>Donate</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+        <h1>OUR INITIATIVE</h1>
+        <p>Emergencies can occur anytime, anywhere. From a damages vehicle to a natural disaster, such emergency
+            situations can affect you and your loved ones. Welcome to our website, a community of people trying to be
+            there for one another when needed. Come and join us and help us report emergencies and handle them.<strong>
+                Welcome.</strong></p>
+    </div>
+    <section class="content">
+
+        <article class="home">
+            <h1>Welcome to सहाय्यम्</h1>
+            <p>So what is the AIM of SAHAYAM directory? Our mission is to make our community a better place for people
+                of all sections. We are willing working to build a society wherein no person is left unattended during
+                time of calamity and a compassionate society is formed. People have joined us from various domains
+                providing help from their end, we are counting on you to join us and make this mission a vision.</p>
+            <h2>So... who are we?</h2>
+            <p>We are a charitable firm who run solely by volunteers.During time of calamity we want to reach out to
+                people who need us, but due to our family needs we end up being of no use to them. So here is a portal
+                where such like minded people join hands and contribute money that is reached out to people of need .
+                You can donate a vast variety of items raning from cloth to food to even monetary help, or more better
+                educate a child who is abandoned by his family.</p>
+            <p>We also occasionally have meetups to spread awarness about our initiative and to reach out to larger
+                masses who are looking for a medium like ours. If, for example, we know we're coming to Delhi, we'll let
+                everyone know and schedule a meet up day to tour the city and take photos. If you'd like us to visit
+                your city, <a href="contact.htm" title="get in touch">let us know!</a></p>
+            <div class="box">
+                <p
+                    style="font-size: 20px;padding:0;margin-bottom: 2px;margin-top: 5px; padding-left: 30px;font-weight: bold">
+                    SHOOT YOUR QUESTION(FAQ)</p>
+                <div class="form-group" style="padding-left: 10px; margin-top: 0">
+                    <form action="question.php" method="POST">
+                        <input type="text" name="question" placeholder="Enter your question">
+                        <input type="submit" name="submit" value="submit">
+                    </form>
+                </div>
+            </div><br>
+            <div class="news left">
+                <h2>Upcoming places</h2>
+                <p>Want to be a part of a SAHAYAM meetup? Check out our upcoming dates and contact us if you'd like to
+                    volunteer for us!</p>
+                <ul>
+                    <li>Punjabi Bagh<span>Jan 03</span></li>
+                    <li>Karol Bagh <span>Jan 23</span></li>
+                    <li>Okhla <span>March 05</span></li>
+                    <li>Murthal <span>April 13</span></li>
+                    <li>Janakpuri <span>June 03</span></li>
+                    <li>Anand Vihar<span>July 16</span></li>
+                </ul>
+            </div>
+            <div class="news right">
+                <h2>Main Highlights</h2>
+                <p>Our meetup will aim at making the crowd more aware of our initiative. A short session on why do we
+                    need to be ore humanitarian for animals will be conducted by our cheif guest. The do`s and don`t
+                    while adopting a pet will be elaborated </p>
+                <p>From a organisation of just 5 people we are aiming to scale up, with active volunteers throughout the
+                    nation we belive that we will make out society a livable place for pets/animals & there will remain
+                    no adoptable pet ethunaized in public. Help, care, vaccination, shelter to live and monthly
+                    healthcamps are among some of the incentives that we are working on. </p>
+                <p></p>
+            </div>
+        </article>
+
+        <section class="contest">
+            <h2 id="h02" style="font-size: 1.5em; line-height: 1.7em">Innitiatives already taken</h2>
+            <marquee direction="up">
+                <p>Slum kids deprived of basic facilities</p>
+                <img src="http://localhost/cris/imagex/needy.jpg" alt=""> <br>
+                <p>Vaccination for slum kids</p>
+                <img src="http://localhost/cris/imagex/vaccination.jpg" alt="">
+                <p>Elementary Education</p>
+                <img src="http://localhost/cris/imagex/padhai.jpg" alt="">
+                <p>Flood affected zones </p>
+                <img src="http://localhost/cris/imagex/flood.jpg" alt="">
+                <p style="width: 200px;"> We are working for such people. We hope to get maximum help from the society
+                </p>
+            </marquee>
+        </section>
+    </section>
+    <footer id="pageFooter">
+        <div style="margin-top: 1.2em" class="down one">
+            <h1>Support Us</h1>
+            <ul>
+                <li><a href="http://localhost/cris/donatenow.html">Donate Now</a></li>
+                <li><a href="http://localhost/cris/donationavailable.php">Donation`s Available</a></li>
+                <!-- <li><a href="http://localhost/volunteer.html">Volunteer for us</a></li> -->
+            </ul>
+        </div>
+        <div class="down two">
+            <h1>Adoption</h1>
+            <ul>
+                <li><a href="http://localhost/cris/alladoptionrequests.php">Adoption Requests</a> </li>
+                <li><a href="http://localhost/Dog%20Adoption%20Form.pdf">Adoption Process</a></li>
+                <li><a href="http://localhost/cris/faq.php">FAQ</a></li>
+            </ul>
+        </div>
+        <div style="margin-top: 0.5em" class="down three">
+            <h1>Our Location</h1><br>
+            <center> <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=+&amp;q=E+11+Green+Park,+Extension,+India&amp;ie=UTF8&amp;hq=&amp;hnear=E+11+Green+park,+Extension,+New,+Delhi+110016&amp;ll=28.5597,77.2039&amp;spn=0.009995,0.023056&amp;t=m&amp;z=14&amp;iwloc=r0&amp;output=embed"></iframe>
+                <p>E-11, Green Park Extension <br>
+                    New Delhi-110016 <br>
+                    Mobile No-9873179872 <br>
+                </p>
+            </center>
+        </div>
+
+    </footer>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function () {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.global
+{
+    height: 500px;
+    width: 1280px;
+    background: url(http://localhost/cris/imagex/adoptmebanner.jpg)no-repeat;
+}
+.square
+{
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    height: 120px;
+    color: black;
+    background: white;
+    position: relative;
+}
+.square h1{
+    font-size: 1.4em;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+strong{
+    font-size: 2em;
+    line-height: 2.1em;
+    color: white;
+    padding-left:150px;
+
+}
+.one
+{
+    float: left;
+}
+.variousmethod 
+{
+    background: white;
+    height: 700px;
+    width: 1240px;
+    padding: 20px;
+}
+
+.adopt h1{
+    /* float: right; */
+    font-size: 1.4em;
+    line-height: 1.6em;
+    font-weight: bold;
+    padding: 5px;
+}
+.adopt p
+{
+    line-height: 1.2em;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}

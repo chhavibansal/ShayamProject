@@ -1,0 +1,349 @@
+aside,footer,header,section,p,h1,h2,h3{
+    display: block;
+}
+aside,header,section,body,footer,p1,h1{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font: inherit;
+}
+
+a {
+	text-decoration: none;
+
+}
+html{
+    background:rgb(167, 165, 165);
+    height: 100%;
+}
+body{
+    background: white;
+    width: 1280px;
+    margin: 0 auto;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1em;
+
+    
+}
+.login
+{
+    background: url(imagex/main.jpg);;
+    height: 25px;
+    margin-top: 0px;
+    padding: 10px;
+
+    padding-right: 20px;
+}
+button{
+    background: rgb(250, 247, 58);
+    padding: 10px;
+    margin: 2px;
+    margin-top: -8px;
+    align-content: center;
+    text-transform: capitalize;
+    width: 80px;
+    /* height: 30px; */
+}
+#k01
+{
+    /*padding: 20px; */
+    float: right;
+    margin-right: 20px;
+}
+#k02
+{
+    float: right;
+    /* padding-left: 20px; */
+    margin-right: 30px;
+    /* clear: both; */
+}
+header{
+    background: url(imagex/main.jpg);
+    margin-bottom: 0.5em;
+    text-decoration: none;
+    padding-top:15px;
+    height: 120px;
+    position: relative;
+    padding-left: 50px;
+
+}
+header h1{
+    color: white;
+    text-transform:uppercase;
+    padding-left: 130px;
+    margin-right: .5em;
+    padding-top: 0px;
+    background: url(imagex/sahayam.png) no-repeat  left center;
+    float: left;
+    position: absolute;
+    top: 0;
+    font-weight: bolder;   
+    line-height: 2em;
+    overflow: hidden;
+    font-size: 4em;
+}
+header h2{
+    text-transform: lowercase;
+    font-weight:bold;
+    font-style: italic;
+    letter-spacing: .1em;
+    float: left;
+    color: white;
+    padding-left: 380px;
+    padding-top: 2.8em;
+    font-size: 1.2em;
+}
+header a,header a.hover
+{
+    color: #fff;
+	border: none;
+}
+.navbar {
+    margin-bottom: 1.5em;
+    padding: 0px;
+    padding-top: .8em;
+     overflow: hidden;
+     /* margin-left: 2em; */
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2em;
+    width: 160px;
+    /* letter-spacing: .09em; */
+    margin-right:2.3em;
+    text-transform: uppercase;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: blue;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    width:190px;
+    font-weight: 600;
+    font-size: 1.2em;
+    /* letter-spacing: .09em; */
+    text-transform: uppercase;
+    margin-right: 2em;
+}
+/* .dropdown .dropbtn a{
+    width: 90px;
+} */
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    /* min-width: 100px; */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content:first-of-type a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    width: 250px;
+    text-align: left;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    width: 250px;
+    text-align: left;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+    overflow: hidden;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 40px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    /* background: url(imagex/smoke.jpg); */
+    border: 1px solid black;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    /* background: url(imagex/smoke.jpg); */
+    background: white;
+    /* margin: auto; */
+    padding: 0;
+    margin-left:880px;
+    border: 1px solid #888;
+    width: 380px;
+    height: 360px;
+    color:black;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 rgba(58, 42, 42, 0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 1px;
+    background-color: rgb(236, 84, 190);
+    border : 1em solid black;
+    background: url(imagex/animalgraffitioriginal.jpg);
+    color: black;
+    margin: 0%;
+}
+
+.modal-body {padding:0px;
+margin: 0%;}
+
+.modal-footer {
+    clear: both;
+
+    padding: 10px 16px;
+    background: url(http://localhost/imagex/animal.jpg);
+    color: black;
+}
+
+.modal-footer a:link{
+    color: rgb(36, 21, 247);
+}
+.modal-footer a:visited{
+    color: rgb(89, 21, 247);
+}
+
+#myBtn{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+    background: url(imagex/iconssign.jpg);
+}
+#modal-table tr{
+    padding-left: 100px; 
+
+}
+
+#modal-table td{
+    line-height:1em;
+    padding-left: 1.5em;
+   
+}
+#modal-table  td:first-of-type{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height:2.5em;
+}
+#modal-table  td input{
+    font-size: 1.1em;
+    border: 1px solid black;
+   
+}
+.form-padding{
+    padding-left: 30px;
+}
+#modal-table  td input[type="submit"]
+{
+    border: none;
+    border-radius: 10px;
+    background: rgb(228, 126, 206);
+    font-size: 1.3em;
+    line-height: 2em;
+    padding: 10px 40px;
+    /* padding-left:  */
+    color: rgb(8, 8, 8);
+    font-weight: bold
+}
+footer{
+    clear:both;
+    color: white;
+    border-top: 2px solid black;
+   
+}
+#pageFooter
+{
+    background: rgb(22, 16, 16);
+}
+.one
+{
+    float: left;
+    width: 380px;
+    margin-right: 20px;
+}
+
+.two
+{
+    float: left;
+    width: 380px;
+    padding: 20px;
+    /* margin-top: 20px; */
+}
+.down  h1{ text-transform: uppercase; text-align: center; font-weight: bold; font-size: 2em;}
+.three
+{
+    float: right;
+    width: 380px;
+    padding: 20px;
+}
+.three h1{ text-transform: uppercase;  text-align: center; font-weight: bold; font-size: 2em;}
+.down ul 
+{
+    line-height: 1.8em;
+   list-style: none;
+}
+.down ul li{
+    border-bottom: 1px solid black;
+}

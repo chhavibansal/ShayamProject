@@ -1,0 +1,104 @@
+
+
+.sign{
+    width: 600px;
+    background: rgb(15, 12, 12);
+    margin: 1% auto 0%;
+    position: relative;
+    padding: 40px;
+   
+}
+.sign img{
+    position: absolute;
+    top: -3%;
+    left: 40%;
+    border-radius: 50%;
+}
+.sign h1{
+    color: white;
+    text-align: center;
+    margin-top: 37px;
+    margin-bottom: -10px;
+    text-transform: uppercase;
+}
+.sign p{
+    font-weight: bold;
+    color: white;
+    padding: 0px;
+    font-size: 1.5em;
+
+}
+.sign input[type="text"],input[type="password"],input[type="tel"]
+{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    color: white;
+    /* line-height:1em; */
+    font-size: 1.2em;
+    outline: none;
+    width: 100%;
+    margin: 0%;
+
+}
+.sign input[type="submit"]
+{
+    border: none;
+    background: red;
+    color: white;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    border-radius: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top:10px;
+}
+.sign  input[type="submit"]:hover{
+    background: rgb(242, 255, 0);
+    color: black;
+}
+.sign select{
+    background: rgb(190, 182, 182);
+    border: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+}
+option{
+    background: white;
+    color: black;
+    font-size: 1.3em;
+}
+
+#id01
+{
+    height: 30px;
+    width: 100%;
+   /* padding: 30px; */
+   margin: 10px 0px 10px 0;
+   background: white;
+   color: black;
+  
+    /* border-radius: 25%; */
+}
+td{
+    padding: 10px;
+}
+
+#id02
+{
+    height: 100px;
+    width: 100%;
+    font-size: 0.8em;
+}
+.select
+{
+    border-radius: 25%;
+    width: 200px;
+    padding-left: 30px;
+    /* height: 200px; */
+}
+table td:first-of-type{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset =UTF-8>
+<!-- <script src="main.js"></script> -->
+<link rel="stylesheet" type="text/css" media="screen" href="whydonate.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="slider.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="common.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>SAHAYAM Donation portal </title>
+</head>
+<body>
+
+      <div class="login">
+
+<div >
+    <!-- Trigger/Open The Modal -->
+    <button id="myBtn" style="float: right; margin-right: 30px" >LOGIN </button>
+    <div id="myModal" class="modal">
+     <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+     <center>    <h2 style="color: black; ">LOGIN</h2></center> 
+        </div>
+        <div class="modal-body">
+            <form action="loginform.php" method="POST">
+                <table id="modal-table">
+                    <tr><td>USERNAME:</td> <td> <input type="text" name="username" placeholder="Enter Mobile Number" autofocus pattern="^[6-9]\d{9}$"></td> <br></tr> 
+                    <tr><td>PASSWORD:</td><td> <input type="password" name="password" placeholder="Enter password" autofocus></td></tr> 
+                    <tr><td></td> <td><input type="submit" name="submit" value="LOGIN IN"></td></tr> 
+                    <tr> <td></td> <td>  </td> </tr>
+            
+                 </table>
+            </form>
+        </div>
+        <div class="modal-footer">
+                <a href="http://localhost/cris/signupform.html">Do not have a account? SignUp</a><br><br>
+            <a href="http://localhost/dash.php">Look up my profile..</a>
+            <br><br>
+             <a href="logout.php" >LogOut</a>
+          </div>
+      </div>
+    
+    </div>
+    </div>
+    </div>
+<header> 
+    <hgroup>
+        <h1> <a href="http://localhost/cris/frontpage.html">सहाय्यम्</a></h1>
+    
+    <h2>For handling incidents</h2>
+    </hgroup>
+</header>
+<div class="navbar">
+        <a href="http://localhost/cris/aboutus.html">
+              <i class="fa fa-info" style="font-size: 1.2em"></i>  About Us</a>
+        <a href="http://localhost/cris/directory.html">
+              <i class="fa fa-search" style="font-size: 1.2em"></i>  Directory</a>
+        <div class="dropdown">
+          <button class="dropbtn"><i class="fa fa-group" style="font-size: 1.2em"></i>Appeal 
+          </button>
+          <div class="dropdown-content"> 
+            <a href="http://localhost/cris/whyadopt.html"><i class="fa fa-handshake-o" style="font-size: 1.2em;padding-right:5px"></i>Why Adopt?</a>
+            <a href="http://localhost/cris/adoptionform.html"><i class="fa fa-user-plus " style="font-size: 1.2em;padding-right:5px"></i>Adoption</a>
+            <a href="http://localhost/cris/alladoptionrequests.php"><i class="fa fa-list" style="font-size: 1.2em;padding-right:5px"></i>Adoption Requests</a>
+            <a href="http://localhost/cris/whydonate.html"><i class="fa fa-question-circle" style="font-size: 1.2em;padding-right:5px"></i>Why Donate</a>
+            <a href="http://localhost/cris/donationform.html"><i class="fa fa-inr" style="font-size: 1.2em;padding-right:5px"></i>Ask for donation</a>
+          </div>
+        </div> 
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fa fa-volume-control-phone" style="font-size: 1.2em"></i>  Emergency</button>
+            <div class="dropdown-content">
+                <a href="http://localhost/cris/donationpage.html"><i class="fa fa-credit-card" style="font-size: 1.2em;padding-right:5px"></i>Donate</a>
+            </div>
+        </div>
+      </div>
+
+<div class="conatiner">
+        <div id="outerbox">
+                <div id="sliderbox">
+                <div  class="parent">  
+                    <img src="http://localhost/cris/imagex/donaterightnow.jpg" alt="dog examined with flu" class="image1" >   
+                </div>
+                <div  class="parent">  
+                    <img src="http://localhost/cris/imagex/poor.jpg" alt="malnourished dog" class="image1" >   
+                </div>
+                <div  class="parent">  
+                    <img src="http://localhost/cris/imagex/broken wall.jpg" alt="raccoon-disease-dogs" class="image1" >   
+        </div>
+              
+                <div  class="parent">  
+                            <img src="http://localhost/cris/imagex/donate/nohouse.jpg" alt="" class="image1" >   
+                </div>
+              
+                <div  class="parent"> 
+                            <img src="http://localhost/cris/imagex/adoption/help.jpg" alt="" class="image1" >   
+                </div>
+                  <!-- <div class="parent">  
+                            <img src="http://localhost/cris/imagex/assam-floods.jpg" alt="puppy-vaccination" class="image1" >   
+                            <img src="http://localhost/imagex/medicalillness/puppy-vaccination.png" alt="" class="image6">  
+                </div> -->
+            </div>
+        </div>
+    </div>
+        
+            <div class="why">
+    <div class="whydonate">
+        <h1>Why are we asking for donation?</h1>
+        <p>We believe in holding the trust of our donars,thereby we put in all the money donated to us for the wellfare of humans who have been affected by any kind of accident, and who do not have sufficient resources to work their way through. Your continued support is a source of our continous help provided to physically wounded, terror struck, family seperated people. We put in the money to provide such people with shelter, food, aminities of their needs and basic medical facilities until they reunite with their families.Your donation stays with the organisation until we find someone needy. </p>
+        <br><br>
+        <strong id="support">Thank You for your CONTINUED Support </strong>
+    </div>
+
+    <div class="bottom">
+        <div class="wheredoweuseyourfunds left">
+            <div class="boxone">
+            <h1>Where Do We Use Your Funds?</h1>
+            <p>During time of calamity a lot of people lose their lifelong earning, and it takes a  lot of time to earn it back, so as humanitarian we can extend our hand to help people in need. So here we are with a solution which will surely not heart your pocket and also help those in deadly need of money. As brothers and sisters we get up and take this as out responsibility to help them and get their life back to normal.
+                So a small contribution from your side will be a huge help to the society. </p>
+            <p>We may not be responsible for the plight of these stray animals but we can definetly treat them and help them live a better life. The more we spend on things of charity the more we flourish. It is a humble request from our side that, even a small amount can be of great help.</p>
+            <br><br><br><br><br><br>
+        <br>    <p id="hindi">“जो कुछ भी हमने अपने लिये किया है हमारे साथ ही समाप्त हो जाता है। पर जो कुछ भी हमने दूसरों के और इस दुनिया के लिये किया है हमेशा रहता है और अमर हो जाता है।”</p>
+        </div></div>
+        <div class="dogdisease right">
+            <h1 style="font-weight: bold; text-transform: capitalize;line-height: 1.3em">Where we have extended our support so far</h1>
+            <ul>
+                <li>People who meet with accidents</li>
+                <li>Effected by natural calamity</li>
+                <li>Helped people live longer affected by incurable disease</li>
+                <li>Flood Struck people</li>
+                <li>Reunited families</li>
+                <li>Providing Shelter</li>
+                <li>Providing food for malnourished children</li>
+                <li>Vaccination camps for newborn kids in rural areas</li>
+                <li>Primary schools in remote village</li>
+            </ul>
+            
+        </div>
+    </div>
+</div>
+
+
+<footer id="pageFooter">
+        <div style="margin-top: 1.2em" class="down one">
+            <h1>Support Us</h1>
+            <ul>
+                    <li><a href="http://localhost/cris/donatenow.html">Donate Now</a></li>
+                    <li><a href="http://localhost/cris/donationavailable.php">Donation`s Available</a></li>
+                    <!-- <li><a href="http://localhost/volunteer.html">Volunteer for us</a></li> -->
+            </ul>
+        </div>
+        <div  class="down two">
+            <h1>Adoption</h1>
+           <ul>
+                <li><a href="http://localhost/cris/alladoptionrequests.php">Adoption Requests</a> </li>
+                <li><a href="http://localhost/Dog%20Adoption%20Form.pdf">Adoption Process</a></li>
+                <li><a href="http://localhost/cris/faq.php">FAQ</a></li>
+           </ul>
+        </div>
+            <div style="margin-top: 0.5em" class="down three">
+                <h1>Our Location</h1><br>
+                   <!-- <center> <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=+&amp;q=E+11+Green+Park,+Extension,+India&amp;ie=UTF8&amp;hq=&amp;hnear=E+11+Green+park,+Extension,+New,+Delhi+110016&amp;ll=28.5597,77.2039&amp;spn=0.009995,0.023056&amp;t=m&amp;z=14&amp;iwloc=r0&amp;output=embed"></iframe> -->
+                    <p>E-11, Green Park Extension <br>
+                        New Delhi-110016 <br>
+                        Mobile No-9873179872 <br>
+                    </p></center>
+            </div>
+
+    </footer>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+        
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        </script>
+        
+        
+    </body>
+    </html>
+
